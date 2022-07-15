@@ -9,7 +9,7 @@ void Checking (int N)
     Console.WriteLine ("Некратно");
 }
 Console.Write("Введите число : ");
-int = int.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine());
 
 Checking(n);
 
