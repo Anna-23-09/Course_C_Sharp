@@ -1,0 +1,15 @@
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\obj\Debug\net6.0\3_1_demo.csproj.AssemblyReference.cache
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\obj\Debug\net6.0\3_1_demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\obj\Debug\net6.0\3_1_demo.AssemblyInfoInputs.cache
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\obj\Debug\net6.0\3_1_demo.AssemblyInfo.cs
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\obj\Debug\net6.0\3_1_demo.csproj.CoreCompileInputs.cache
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\bin\Debug\net6.0\3_1_demo.exe
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\bin\Debug\net6.0\3_1_demo.deps.json
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\bin\Debug\net6.0\3_1_demo.runtimeconfig.json
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\bin\Debug\net6.0\3_1_demo.dll
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\bin\Debug\net6.0\3_1_demo.pdb
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\obj\Debug\net6.0\3_1_demo.dll
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\obj\Debug\net6.0\refint\3_1_demo.dll
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\obj\Debug\net6.0\3_1_demo.pdb
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\obj\Debug\net6.0\3_1_demo.genruntimeconfig.cache
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\3_Lesson\3_1_demo\obj\Debug\net6.0\ref\3_1_demo.dll
