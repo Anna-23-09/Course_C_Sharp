@@ -1,0 +1,15 @@
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\bin\Debug\net6.0\2_1.exe
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\bin\Debug\net6.0\2_1.deps.json
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\bin\Debug\net6.0\2_1.runtimeconfig.json
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\bin\Debug\net6.0\2_1.dll
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\bin\Debug\net6.0\2_1.pdb
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\obj\Debug\net6.0\2_1.csproj.AssemblyReference.cache
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\obj\Debug\net6.0\2_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\obj\Debug\net6.0\2_1.AssemblyInfoInputs.cache
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\obj\Debug\net6.0\2_1.AssemblyInfo.cs
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\obj\Debug\net6.0\2_1.csproj.CoreCompileInputs.cache
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\obj\Debug\net6.0\2_1.dll
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\obj\Debug\net6.0\refint\2_1.dll
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\obj\Debug\net6.0\2_1.pdb
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\obj\Debug\net6.0\2_1.genruntimeconfig.cache
+C:\Users\micae\Desktop\АНЯ\Geek Brains\Знакомство с языками программирования\Семинар\Course_C_Sharp\2_lesson\2_1\obj\Debug\net6.0\ref\2_1.dll

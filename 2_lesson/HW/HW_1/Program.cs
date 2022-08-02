@@ -6,4 +6,4 @@ void NumSec (int num)
     Console.WriteLine (num / 10 % 10);
 }
 
-NumSec (908);
+NumSec (593);
