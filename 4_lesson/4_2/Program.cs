@@ -9,6 +9,3 @@ int Method(int num)
     return AllSum;
 }
 Console.WriteLine(Method(4));
-
-
-
