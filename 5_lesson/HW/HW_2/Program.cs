@@ -1,7 +1,6 @@
 ﻿//Задайте одномерный массив, заполненный
 //случайными числами. Найдите сумму элементов, стоящих
 //на нечётных позициях.
-
 void Print(int[] arr)
 {
     int size = arr.Length;
@@ -12,31 +11,30 @@ void Print(int[] arr)
     }
     Console.WriteLine();
 }
-int[] MassNums(int size)
+
+int[] MassNums(int size, int from, int to)
 {
     int[] arr = new int[size];
 
     for (int i = 0; i < size; i++)
     {
-        arr[i] = new Random().Next(1, 100);
+        arr[i] = new Random().Next(from, to);
     }
     return arr;
 }
-
-void SumNumEven (int[] arr)
+int SumNumEven (int[] arr)
 {
     int size = arr.Length;
+    int num_sum = 0;        
 
     for (int i = 0; i < size; i += 2)
     {
-        num_sum = 0;
-        if (arr[i] < size)
-            num_sum += arr[i];
+        num_sum += arr[i];
     }
+    return num_sum;
 }
 
-int[] arr = MassNums(10);
+int[] arr = MassNums(5, 1, 11);
 Print(arr);
-SumNumEven(arr);
-Console.WriteLine(num_sum);
+Console.WriteLine(SumNumEven(arr));
 
