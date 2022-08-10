@@ -31,7 +31,7 @@ int [] PairsNums(int[] arr)
     int flex_size = size / 2 + size % 2;
     int[] new_arr = new int[flex_size];
 
-    for (int i = 0; i < size /2; i++)
+    for (int i = 0; i < size / 2; i++)
         new_arr[i] = arr[i] * arr[size - i - 1];
 
     if (new_arr[flex_size -1] == 0)
