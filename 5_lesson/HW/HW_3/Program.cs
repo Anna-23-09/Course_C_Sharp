@@ -14,11 +14,11 @@ void Print(double[] arr)
 }
 double[] MassNums(int size)
 {
-    double[] arr = new int[size];
+    double[] arr = new double[size];
 
     for (int i = 0; i < size; i++)
     {
-        arr[i] = new Random().Next(-10, 10, 2);
+        arr[i] = new Random().Next(-10, 10);
     }
     return arr;
 }
@@ -26,9 +26,9 @@ double[] MassNums(int size)
 void Diff (double[] arr)
 {
     int size = arr.Length;
-    int max_num = 0;
-    int min_num = 0;
-    double num_diff = max_num - min_num;
+    double max_num = 0;
+    double min_num = 0;
+
     for ( int i = 0; i < size; i ++)
     {
         if (arr[i] > max_num)
@@ -36,7 +36,7 @@ void Diff (double[] arr)
         if (arr[i] < min_num)
         min_num = arr[i];
     }
-    Console.WriteLine(num_diff);
+    Console.WriteLine(max_num - min_num);
 
 }
 double[] arr = MassNums(7);
