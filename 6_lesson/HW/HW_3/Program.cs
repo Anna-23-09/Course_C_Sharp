@@ -23,11 +23,10 @@ double [] MassNums(int size)
     return arr;
 }
 
-double Copy (double [] arr)
+double[] Copy (double [] arr)
 {
     int size = arr.Length;
-    int new_size = size;
-    double[] new_arr = new double [new_size];
+    double[] new_arr = new double [size];
 
     for (int i = 0; i <= size; i++)
         new_arr[i] = arr[i];
