@@ -18,7 +18,6 @@ void Print(int[,] arr)
     Console.WriteLine();
 }
 
-
 int[,] MassNums(int row, int column)
 {
     int[,] arr = new int[row, column];
