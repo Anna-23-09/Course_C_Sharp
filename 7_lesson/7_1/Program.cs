@@ -19,7 +19,7 @@ void Print(int[,] arr)
 }
 
 
-int[,] MassNums(int row, int column, int from, int to)
+int[,] MassNums(int row, int column)
 {
     int[,] arr = new int[row, column];
 
@@ -27,7 +27,7 @@ int[,] MassNums(int row, int column, int from, int to)
     {
         for(int j = 0; j < column; j++)
         {
-            arr[i, j] = new Random().Next(from, to);
+            arr[i, j] = i + j;
         }        
     }
     return arr;    
@@ -38,5 +38,5 @@ int row = int.Parse(Console.ReadLine());
 Console.Write("Enter the number of columns: ");
 int column = int.Parse(Console.ReadLine());
 
-int[,] arr_1 = MassNums(row, column, 1, 11);
+int[,] arr_1 = MassNums(row, column);
 Print(arr_1);
