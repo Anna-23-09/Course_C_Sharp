@@ -22,12 +22,13 @@ void Print(double [,] arr)
 double [,] MassNums(int row, int column, int from, int to)
 {
     double[,] arr = new double [row, column];
+    Random n_new = new Random();
 
     for(int i = 0; i < row; i++)
     {
         for(int j = 0; j < column; j++)
         {
-            arr[i, j] = new Random().Next(from, to);
+            arr[i, j] = Math.Round(n_new.NextDouble() * -10 , 2);
         }        
     }
     return arr;    
@@ -35,3 +36,6 @@ double [,] MassNums(int row, int column, int from, int to)
 
 double[,] arr_1 = MassNums(3, 4, -10, 11);
 Print(arr_1);
+
+double[,] arr_2 = MassNums(3, 4, -10, 11);
+Print(arr_2);
