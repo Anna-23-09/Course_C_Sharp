@@ -1,6 +1,6 @@
-﻿//Напишите программу, которая на вход принимает позиции элемента в 
-//двумерном массиве, и возвращает значение этого элемента или же 
-//указание, что такого элемента нет.
+﻿// 2. Напишите программу, которая на вход принимает позиции элемента
+//    в двумерном массиве, и возвращает значение этого элемента 
+//    или же указание, что такого элемента нет.
 
 void Print(int[,] arr)
 {
@@ -10,9 +10,7 @@ void Print(int[,] arr)
     for (int i = 0; i < row_size; i++)
     {
         for (int j = 0; j < column_size; j++)
-        {
             Console.Write($" {arr[i, j]} ");
-        }
         Console.WriteLine();
     }
     Console.WriteLine();
@@ -23,46 +21,27 @@ int[,] MassNums(int row, int column, int from, int to)
     int[,] arr = new int[row, column];
 
     for (int i = 0; i < row; i++)
-    {
         for (int j = 0; j < column; j++)
-        {
             arr[i, j] = new Random().Next(from, to);
-        }
-    }
     return arr;
 }
 
-void Position (int[,] arr, int a, int b)
+string FindElement(int[,] arr, int f, int s)
 {
-    for (int i = 0; i < arr.GetLength(0); i++)
-    {
-        for (int j = 0; j < arr.GetLength(1); j++)
-        {
-            if ( a <= arr.GetLength(0) && b <= arr.GetLength(1))
-                {
-                    Console.WriteLine($" {arr[i + 1, j + 1]}");
-                }
-                return arr_1(i + 1, j + 1);
-            else
-                Console.WriteLine("Такого элемента нет");
-                break;
-        }
-    }
+    int row = arr.GetLength(0);
+    int column = arr.GetLength(1);
 
+    if (f > row || f <= 0 || s > column || s <= 0)
+        return $"{f} {s} -> not in the array";
+    return $"arr[{f}, {s}] = {arr[f - 1, s - 1]} -> is in the array";
 }
 
-Console.Write("Enter the number of rows: ");
-int row = int.Parse(Console.ReadLine());
-Console.Write("Enter the number of columns: ");
-int column = int.Parse(Console.ReadLine());
+Console.Write("Enter the line position: ");
+int first = int.Parse(Console.ReadLine());
+Console.Write("Enter the column position: ");
+int second = int.Parse(Console.ReadLine());
 
-//Console.Write("Enter the position, a and b: ");
-//int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-
-int[,] arr_1 = MassNums(row, column, 1, 11);
-
+int[,] arr_1 = MassNums(3, 4, 1, 11);
 Print(arr_1);
-Position(arr_1, 3, 4);
 
-
-
+Console.WriteLine(FindElement(arr_1, first, second));
