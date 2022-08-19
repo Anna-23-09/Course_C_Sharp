@@ -32,26 +32,17 @@ int[,] MassNums(int row, int column)
     return arr;    
 }
 
-int[,] FillArrayReverseFirstEndRow (int[,] arr)
+void FirstWithLast(int[,] arr)
 {
-    int temp = 0;
-    for (int j = 0; j < arr.GetLength(1); j++)
-    {
-        temp = arr [0, j];
-        arr [0, j] = arr [arr.Length(0) - 1, j];
-        arr [arr.Length(0) - 1, j] = temp;        
-    } 
-    Console.WriteLine();
-    return arr;
+    int row = arr.GetLength(0);
+    int column = arr.GetLength(1);
+
+    for (int i = 0; i < column; i++)
+    {        
+        (arr[0, i], arr[row - 1, i]) = (arr[row - 1, i], arr[0, i]);        
+    }
 }
-//
-//void FirstWithLast (int[,] arr)
-//{
-    //for (int i = 0; i <column; i++)
-    //{
-        //arr [0, 1], arr [row - 1, i] = arr [row - 1, i], arr [0, 1],
-    //}
-//}
+
 Console.Write("Enter the number of rows: ");
 int row = int.Parse(Console.ReadLine());
 Console.Write("Enter the number of columns: ");
@@ -62,4 +53,3 @@ Print(arr_1);
 
 FirstWithLast(arr_1);
 Print(arr_1);
-
