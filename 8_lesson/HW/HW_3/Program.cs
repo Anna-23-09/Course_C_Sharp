@@ -68,10 +68,15 @@ int[,] MultiMatrix (int[,] arr_1, int[,] arr_2)
     int prod = 0;
     int sum = 0;
 
-    if (column_1 != row_2)
-        Console.WriteLine("Умножение невозможно");
-
     int[,] arr_3 = new int [row_1, column_2];
+ 
+    if (column_1 != row_2)
+        {
+            Console.WriteLine("Умножение невозможно");
+            return arr_3;
+        }
+
+    
     {
         for (int i = 0; i < arr_1.GetLength(0); i++)
         {
@@ -106,5 +111,5 @@ int[,] arr_2 = MassNumbers(row_2, column_2, 1, 10);
 Print_2(arr_2);
 
 int[,] arr_3 = MultiMatrix(arr_1, arr_2);
-Console.WriteLine(arr_3);
+Print_1(arr_3);
 

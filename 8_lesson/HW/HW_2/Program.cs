@@ -35,9 +35,6 @@ int [,] FindMinRow (int [,] arr)
     int row = arr.GetLength(0);
     int column = arr.GetLength(1);
 
-    if(row == column)
-        return "Массив не является прямоугольным";
-
     int sum = 0;
     int index = 0;
 
@@ -54,7 +51,7 @@ int [,] FindMinRow (int [,] arr)
             index = i++;
         }
     }
-    Console.WriteLine($"{array} [i] [j]");
+    Console.WriteLine($"{arr} [i] [j]");
 }
 
 Console.Write("Enter the number of rows: ");
