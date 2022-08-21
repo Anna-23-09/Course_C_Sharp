@@ -2,8 +2,8 @@
 //которая найдёт сумму натуральных элементов в промежутке от M до N.
 int SumOfNumbers (int a, int b)
 {
-    if (a > b) return a;
-    return SumOfNumbers (a, b - 1) + a;
-    Console.WriteLine($"{a}, ");
+    if (a >= b) return b;
+    return SumOfNumbers (a, b - 1) + b;
+    Console.WriteLine($"{b}, ");
 }
-SumOfNumbers(2, 5);
+Console.WriteLine(SumOfNumbers(2, 10));
