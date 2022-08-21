@@ -1,10 +1,12 @@
 ﻿// Задайте значения M и N. Напишите программу, 
 //которая выведет все натуральные числа в промежутке от M до N.
 
-int NaturalNumbers (int a, int b)
+void NaturalNumbers (int a, int b)
 {
-    if (a % 2 == 0) return a;
-    return NaturalNumbers(a, b - 1);
-    Console.WriteLine($"{a + 2}, ");
+    if (a > b) return;
+    NaturalNumbers(a, b - 1);
+    if (b % 2 == 0)
+    Console.Write($"{b}, ");
 }
-Console.WriteLine(NaturalNumbers(15, 29));
+NaturalNumbers(1, 10);
+
