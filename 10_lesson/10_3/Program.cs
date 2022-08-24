@@ -9,7 +9,7 @@
 string CheckingQuarter (int x, int y)
 {
     string flag = " ";
-    if (x != 0 || y != 0)
+    if (x != 0 && y != 0)
     {
         if (x > 0 && y > 0)
             flag = "1 quarter";
@@ -20,6 +20,8 @@ string CheckingQuarter (int x, int y)
             else if (x < 0 && y > 0)
             flag = "4 quarter";
     }
+    else 
+    flag = "Действие невозможно";
     return flag;
 }
 
