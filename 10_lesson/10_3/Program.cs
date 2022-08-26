@@ -6,30 +6,30 @@
 // 3 x < 0; y < 0;
 // 4 x < 0; y > 0;
 
-string CheckingQuarter (int x, int y)
+string CheckingQuarter(int x, int y)
 {
     string flag = " ";
     if (x != 0 && y != 0)
     {
         if (x > 0 && y > 0)
             flag = "1 quarter";
-            else if (x > 0 && y < 0)
+        else if (x > 0 && y < 0)
             flag = "2 quarter";
-            else if (x < 0 && y < 0)
+        else if (x < 0 && y < 0)
             flag = "3 quarter";
-            else if (x < 0 && y > 0)
+        else if (x < 0 && y > 0)
             flag = "4 quarter";
     }
-    else 
-    flag = "Действие невозможно";
+    else
+        flag = "Действие невозможно";
     return flag;
 }
 
-Console.WriteLine ("Введите x: ");
-int x = int.Parse (Console.ReadLine());
-Console.WriteLine ("Введите y: ");
-int y = int.Parse (Console.ReadLine());
+Console.WriteLine("Введите x: ");
+int x = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите y: ");
+int y = int.Parse(Console.ReadLine());
 
-Console.WriteLine(CheckingQuarter (x, y));
+Console.WriteLine(CheckingQuarter(x, y));
 
 
